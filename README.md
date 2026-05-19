@@ -1,1 +1,35 @@
-# reliability-estimation-qa
+
+
+# Reliability Estimation Framework for Question Answering Systems
+
+This repository contains the implementation and experimental framework used for evaluating the reliability and uncertainty characteristics of transformer-based question answering (QA) systems under both answerable and unanswerable question settings.
+
+## Datasets
+- SQuAD v2.0 (Unanswerable QA)
+- QuAC (Answerable Conversational QA)
+
+## Evaluated Models
+- BERT Base
+- RoBERTa
+- ALBERT
+- DistilBERT
+
+## Methodology
+The framework includes:
+- Monte Carlo Dropout (MCD)-based uncertainty estimation
+- Input perturbation using paraphrasing
+
+## Evaluation 
+- Cosine similarity analysis
+- F1 score evaluation
+- Statistical analysis of prediction consistency
+
+
+## Implementation Details
+The experiments are implemented using:
+- Hugging Face Transformers
+- Sentence-BERT
+- PyTorch
+- Google Colab
+
+This repository is intended to support reproducibility and transparency of the experimental methodology presented in the associated research study.# reliability-estimation-qa
