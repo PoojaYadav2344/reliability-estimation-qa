@@ -4,9 +4,17 @@
 
 This repository contains the implementation and experimental framework used for evaluating the reliability and uncertainty characteristics of transformer-based question answering (QA) systems under both answerable and unanswerable question settings.
 
-## Datasets
-- SQuAD v2.0 
-- QuAC 
+- ## Dataset
+
+The experiments were conducted using publicly available benchmark datasets:
+
+- SQuAD v2.0:
+  https://rajpurkar.github.io/SQuAD-explorer/
+
+- QuAC:
+  https://quac.ai/
+
+Please download the datasets from their respective official sources and place them in the working directory before executing the notebooks.
 
 ## Evaluated Models
 - BERT Base
